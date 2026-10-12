@@ -17,3 +17,5 @@
 .client-view .new-ticket strong{font-size:22px}
 .client-view .new-ticket small{margin-left:0}
 @media(max-width:760px){.topbar{gap:8px}.top-nav{margin:0 auto;gap:0}.top-nav a{padding:8px 9px;font-size:11px}.top-right{gap:8px}.client-view .create-panel{padding:18px}}
+.sound-pill{background:transparent;cursor:pointer}
+.sound-pill:hover,.sound-pill:focus-visible{background:#ffffff18;outline:2px solid #b8cde7;outline-offset:2px}
