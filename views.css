@@ -1,0 +1,19 @@
+.top-nav{display:flex;align-items:center;gap:5px;margin-left:auto;margin-right:24px}
+.top-nav a{padding:8px 13px;border-radius:6px;text-decoration:none;color:#718096;font-size:12px;font-weight:600}
+.top-nav a:hover{background:#f5f7fa;color:#365c8e}
+.top-nav a.active{background:#edf4ff;color:#286fc1}
+.columns.client-view{margin-top:0}
+.client-view .create-panel{padding:24px}
+.client-view .create-panel h2{font-size:19px}
+.client-view .helper{font-size:13px;margin:12px 0 18px}
+.client-view .create-panel input,.client-view .create-panel select{height:43px;font-size:13px}
+.client-view .primary-btn{height:44px;font-size:13px}
+.client-view .callout{min-height:220px;padding:21px}
+.client-view .called-ticket{font-size:52px;margin-top:25px}
+.client-view .called-empty{height:155px}
+.client-view .called-empty p{font-size:14px}
+.client-view .called-empty small{font-size:11px}
+.client-view .new-ticket{padding:12px;flex-wrap:wrap}
+.client-view .new-ticket strong{font-size:22px}
+.client-view .new-ticket small{margin-left:0}
+@media(max-width:760px){.topbar{gap:8px}.top-nav{margin:0 auto;gap:0}.top-nav a{padding:8px 9px;font-size:11px}.top-right{gap:8px}.client-view .create-panel{padding:18px}}
